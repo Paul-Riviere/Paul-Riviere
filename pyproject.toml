@@ -1,0 +1,13 @@
+[project]
+name = "Paul-Riviere"
+version = "0.0.0"
+description = ""
+authors = [
+    { name = "Paul Riviere", email = "paolo3799@gmail.com" },
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mkdocs>=1.6.1",
+    "mkdocs-curriculum-vitae>=0.9.0",
+]

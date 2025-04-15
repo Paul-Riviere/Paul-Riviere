@@ -1,0 +1,65 @@
+---
+# Project information
+site_name: Paul Riviere - CV
+site_url: https://Paul-Riviere.github.io/Paul-Riviere
+site_description: Paul Riviere's Curriculum Vitae (CV) using MkDocs
+
+# Theme
+theme:
+  name: curriculum-vitae
+  mkcv_layout: default
+  mkcv_theme: default
+  main_title: Paul Riviere's Curriculum Vitae
+  firstname: Paul
+  lastname: Riviere
+  mail: paolo3799@gmail.com
+  location: Tours
+  profile_picture: https://dummyimage.com/600x600/
+  skills:
+    - Ansible
+    - Gitlab-ci
+    - Docker
+    - Python
+    - Angular
+    - SQL
+  hobbies:
+    - computer science
+    - Music
+    - Photography
+  certifications:
+    - name: Professional Scrum Master™ I (PSM I)
+      link: https://www.credly.com/badges/4f2422b3-df14-45f9-a3fa-0131167da7c9
+  personnal_links:
+    github: https://github.com/Paul-Riviere/
+    linkedin: https://www.linkedin.com/in/paul-riviere-8b7143151/
+    Instagram: https://www.instagram.com/paulriviere_photo/#
+  experiences:
+    - title: Neosoft - DevOps engineer
+      description: |
+        DevOps engineer, main goal is to automate processes,
+        improve delivery/install speed and quality, and add tests everywhere.
+        <br>
+        Learned how to automate and set up projects properly, such as Ansible collections with molecule,
+        and deploy apps with Gitlab-ci and Terraform in a private cloud provider.
+      start_date: 2022-12-01
+    - title: Umanis - DevOps engineer
+      description: |
+        DevOps engineer, maintaining existing automations for network hardware deployments.
+        Learned Ansible basics, Gitlab-ci, and used python for custom scripts.
+      start_date: 2021-12-01
+      end_date: 2022-10-31
+    - title: Umanis - Web developer
+      description: |
+        Web developer in a team, for an insurance company.
+        <br>
+        Migrated webapps from Flash to Angular, JEE, SQL, PL/SQL, ODI.
+      start_date: 2019-07-01
+      end_date: 2021-09-30
+    - title: Mc Donald's
+      description: /
+      start_date: 2017-08-01
+      end_date: 2017-11-30
+  educations:
+    - title: Supinfo - Master of Engineering
+      description: <a href="/Paul-Riviere/assets/RNCP35284_Expert_en_management_des_systèmes_d_information.pdf"> Supinfo - Master of Engineering </a>
+      start_date: 2024-01-01
